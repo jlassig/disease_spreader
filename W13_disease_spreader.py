@@ -12,6 +12,7 @@ class Button:
       self.surface = pygame.Surface((self.size))
       self.surface.blit(self.text, (0,0))
 
+
 #to see if the people-dots collide or not: (see REFERENCE #3)
 def is_Collision(x,y,x2,y2):    
   distance = math.sqrt((math.pow(x-x2,2))+(math.pow(y-y2,2)))
